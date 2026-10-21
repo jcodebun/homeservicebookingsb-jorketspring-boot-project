@@ -1,0 +1,30 @@
+<%@page import="java.util.Date"%>
+<%@page import="java.text.SimpleDateFormat"%>
+<footer
+	style="bottom: 0; left: 0; position: relative; // changed to relative from fixed also works if position is not there font-size : small; width: 100%;"
+	class="page-footer font-small blue bg-footer">
+	<!-- Copyright -->
+
+	<div class="footer-copyright text-center py-3">
+		<span id="myid"> </span> © Copyright: <a href="#" class="text-white">
+			Jorket</a>
+	</div>
+	<!-- Start of ChatBot code -->
+<script type="text/javascript">
+    window.__be = window.__be || {};
+    window.__be.id = "636d2b21d7ddf70007c756f7";
+    (function() {
+        var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+        be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+    })();
+</script>
+<!-- End of ChatBot code -->
+	<!-- Copyright -->
+</footer>
+<!-- Footer -->
+<script>
+  var myid = document.getElementById("myid");
+  var a = new Date().getFullYear();
+  myid.innerHTML = a;
+ </script>
